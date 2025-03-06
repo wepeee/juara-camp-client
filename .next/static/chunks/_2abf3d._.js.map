@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/node_modules/next/src/client/components/render-from-template-context.tsx"],"sourcesContent":["'use client'\n\nimport React, { useContext, type JSX } from 'react'\nimport { TemplateContext } from '../../shared/lib/app-router-context.shared-runtime'\n\nexport default function RenderFromTemplateContext(): JSX.Element {\n  const children = useContext(TemplateContext)\n  return <>{children}</>\n}\n"],"names":["RenderFromTemplateContext","children","useContext","TemplateContext"],"mappings":"AAAA;;;;;+BAKA,WAAA;;;eAAwBA;;;;;iEAHoB;+CACZ;AAEjB,SAASA;IACtB,MAAMC,WAAWC,CAAAA,GAAAA,OAAAA,UAAU,EAACC,+BAAAA,eAAe;IAC3C,OAAA,WAAA,GAAO,CAAA,GAAA,YAAA,GAAA,EAAA,YAAA,QAAA,EAAA;kBAAGF;;AACZ","ignoreList":[0]}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

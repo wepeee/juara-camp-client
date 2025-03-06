@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/component/teacher/TeacherEdit.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\nimport { useRouter } from \"next/router\";\r\n\r\nconst TeacherEdit = () => {\r\n  const router = useRouter();\r\n  return (\r\n    <div>\r\n      <h1>teacher edit</h1>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default TeacherEdit;\r\n"],"names":[],"mappings":";;;;AAEA;;;AAEA,MAAM,cAAc;IAClB,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,YAAS,AAAD;IACvB,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGV;uCAEe"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40teacher/edit/%5Bid%5D/page.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\n\r\nimport TeacherEdit from \"@/app/component/teacher/TeacherEdit\";\r\n\r\nconst page = () => {\r\n  \r\n  return (\r\n    <div>\r\n      <TeacherEdit />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;AAGA;;;AAEA,MAAM,OAAO;IAEX,qBACE,8OAAC;kBACC,cAAA,8OAAC,2IAAA,CAAA,UAAW;;;;;;;;;;AAGlB;uCAEe"}},
+    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

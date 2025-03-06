@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/component/user/UserClass.tsx/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/app/component/user/UserClass.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/app/component/user/UserClass.tsx <module evaluation>\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAAoS,GACjU,kEACA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/component/user/UserClass.tsx/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/app/component/user/UserClass.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/app/component/user/UserClass.tsx\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAAgR,GAC7S,8CACA"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40user/yourclass/page.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\nimport UserClass from \"@/app/component/user/UserClass\";\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>\r\n      <UserClass />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;AAEA;;;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBACC,cAAA,8OAAC,sIAAA,CAAA,UAAS;;;;;;;;;;AAGhB;uCAEe"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

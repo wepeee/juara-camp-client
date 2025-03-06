@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/component/teacher/TeacherEdit.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport React from \"react\";\r\n\r\nimport { useRouter, useParams } from \"next/navigation\";\r\n\r\ninterface Kelas {\r\n  _id: string;\r\n  title: string;\r\n  description: string;\r\n  price: number;\r\n  imageLink: string;\r\n}\r\n\r\nconst TeacherEdit = () => {\r\n  const router = useRouter();\r\n  const params = useParams();\r\n\r\n  const getKelas = async() => {\r\n    const payload = await axios.get(\"http://localhost:8080/api/kelas\")\r\n  }\r\n  return (\r\n    <div>\r\n      <h1>teacher edit : {params.id}</h1>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default TeacherEdit;\r\n"],"names":[],"mappings":";;;;AAIA;AAJA;;;AAcA,MAAM,cAAc;IAClB,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IACvB,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IAEvB,MAAM,WAAW;QACf,MAAM,UAAU,MAAM,MAAM,GAAG,CAAC;IAClC;IACA,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAG;gBAAgB,OAAO,EAAE;;;;;;;;;;;;AAGnC;uCAEe"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

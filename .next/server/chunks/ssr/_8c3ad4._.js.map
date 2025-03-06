@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/component/user/UserClass.tsx"],"sourcesContent":["\r\n\r\nimport React from \"react\";\r\n\r\nconst UserClass = () => {\r\n  return (\r\n    <div>\r\n      <div className=\"min-h-screen bg-gray-100 justify-center w-full p-5\">\r\n        <div className=\"bg-white p-8 rounded-lg shadow-lg w-[95%] mt-5 mx-auto\">\r\n          <h1 className=\"text-2xl font-bold mb-4\">Welcome, {user}!</h1>\r\n          <div></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default UserClass;\r\n"],"names":[],"mappings":";;;;;AAIA,MAAM,YAAY;IAChB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;wBAAG,WAAU;;4BAA0B;4BAAU;4BAAK;;;;;;;kCACvD,8OAAC;;;;;;;;;;;;;;;;;;;;;AAKX;uCAEe"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40user/yourclass/page.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\nimport UserClass from \"@/app/component/user/UserClass\";\r\n\r\nconst page = () => {\r\n  return (\r\n    <div>\r\n      <UserClass />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;AAEA;;;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBACC,cAAA,8OAAC,sIAAA,CAAA,UAAS;;;;;;;;;;AAGhB;uCAEe"}},
+    {"offset": {"line": 81, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 92, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 92, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

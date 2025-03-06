@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40admin/kelas/%5Bid%5D/page.tsx"],"sourcesContent":["import { useRouter } from \"next/router\";\r\nimport React from \"react\";\r\n\r\nconst page = () => {\r\n  const router = useRouter();\r\n  return <p>Post: {router.query.slug}</p>;\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAGA,MAAM,OAAO;IACX,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,YAAS,AAAD;IACvB,qBAAO,8OAAC;;YAAE;YAAO,OAAO,KAAK,CAAC,IAAI;;;;;;;AACpC;uCAEe"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

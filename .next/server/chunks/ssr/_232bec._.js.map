@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40admin/users/loading.tsx"],"sourcesContent":["import RenderFromTemplateContext from \"next/dist/client/components/render-from-template-context\";\r\n\r\nRenderFromTemplateContext"],"names":[],"mappings":";AAAA;;AAEA,6LAAA,CAAA,UAAyB"}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/node_modules/next/dist/client/components/render-from-template-context.js/proxy.cjs"],"sourcesContent":["const { createClientModuleProxy } = require(\"react-server-dom-turbopack/server.edge\");\n\n__turbopack_export_namespace__(createClientModuleProxy(\"[project]/node_modules/next/dist/client/components/render-from-template-context.js <module evaluation>\"));\n"],"names":[],"mappings":"AAAA,MAAM,EAAE,uBAAuB,EAAE;AAEjC,+BAA+B,wBAAwB","ignoreList":[0]}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/node_modules/next/dist/client/components/render-from-template-context.js/proxy.cjs"],"sourcesContent":["const { createClientModuleProxy } = require(\"react-server-dom-turbopack/server.edge\");\n\n__turbopack_export_namespace__(createClientModuleProxy(\"[project]/node_modules/next/dist/client/components/render-from-template-context.js\"));\n"],"names":[],"mappings":"AAAA,MAAM,EAAE,uBAAuB,EAAE;AAEjC,+BAA+B,wBAAwB","ignoreList":[0]}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/node_modules/next/src/client/components/render-from-template-context.tsx"],"sourcesContent":["'use client'\n\nimport React, { useContext, type JSX } from 'react'\nimport { TemplateContext } from '../../shared/lib/app-router-context.shared-runtime'\n\nexport default function RenderFromTemplateContext(): JSX.Element {\n  const children = useContext(TemplateContext)\n  return <>{children}</>\n}\n"],"names":["RenderFromTemplateContext","children","useContext","TemplateContext"],"mappings":"","ignoreList":[0]}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

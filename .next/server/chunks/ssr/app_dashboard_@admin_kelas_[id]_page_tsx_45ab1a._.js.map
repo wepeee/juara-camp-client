@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/wepe/OneDrive/Desktop/belajar-nodejs/latihan7/client/app/dashboard/%40admin/kelas/%5Bid%5D/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useParams } from \"next/navigation\";\r\nimport React from \"react\";\r\n\r\nconst page = () => {\r\n  const params = useParams();\r\n  return (\r\n    <div>\r\n      <h1>Halaman Kelas {params.id}</h1>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default page;\r\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAKA,MAAM,OAAO;IACX,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IACvB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAG;gBAAe,OAAO,EAAE;;;;;;;;;;;;AAGlC;uCAEe"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
