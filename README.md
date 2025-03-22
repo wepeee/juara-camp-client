@@ -1,6 +1,8 @@
 Description : 
 Ini adalah repository Website Juara Camp yang berisi project next js untuk client.
 
+juara-camp server : https://github.com/wepeee/juara-camp-server/tree/main
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
